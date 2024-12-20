@@ -5,7 +5,7 @@ import userroutes from './src/routes/authroutes.js';
 import cookieParser from 'cookie-parser';
 const app=express();
 app.use(cors({
-    origin: "https://taskmanagementsy.netlify.app", 
+    origin: "https://taskmanagement-01.netlify.app", 
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"], 
     credentials: true,  
